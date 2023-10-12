@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav>
         <ul>
-        <li>
-        <Link className="homelink" to="/">
+        <li className="homelink">
+        <Link  to="/">
         Home
       </Link>
         </li>
@@ -23,6 +23,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

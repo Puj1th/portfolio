@@ -1,0 +1,23 @@
+.main{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    margin: 10% auto;
+    justify-content: space-between;
+}
+.main img{
+    margin: 0 0;
+}
+.main h1{
+    font-size: 50px;
+    margin-top: 30%;
+}
+.main p{
+    margin-top: 0;
+}
+.name{
+    font-size: 50px;
+    margin-top: 0;
+    color: rgb(4, 4, 145);
+    margin-bottom: 10px;
+}

@@ -1,9 +1,21 @@
 import React from 'react'
-
+import './Home.css'
 function Home() {
   return (
     <div>
-      <h4>Home</h4>
+      <div className='main'>
+        <div className='left'>
+          <h1>
+            Hey ! I am <br />
+            <span className='name'>Pujith Paida</span>
+          </h1>
+          <p>A 20 year old undergrad interested in completely dissimilar skills from programming to cooking.</p>
+        </div>
+        <div className='right'>
+          <img src="https://img.freepik.com/premium-vector/serious-concentrated-developer-programming-sites_316839-2216.jpg" alt="" />
+        </div>
+
+      </div>
     </div>
   )
 }

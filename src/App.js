@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Skills from './components/pages/Skills';
 import Projects from './components/pages/Projects';
 import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/skills' element={<Skills />}></Route>
         <Route path='/projects' element={<Projects />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
         <Route path='/' element={<Home />}></Route>
+        <Route path='*' element={<Home />}></Route>
       </Routes>
 
     </div>
