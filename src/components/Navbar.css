@@ -1,0 +1,24 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(4, 4, 145);
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+}
+a{
+    text-decoration: none;  
+    color: aliceblue;
+}
+.homelink{ 
+    margin: 15px 20px; 
+}
