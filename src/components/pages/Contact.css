@@ -1,4 +1,4 @@
-.container{
+.container1{
     padding-top: 1px;
     padding-bottom: 50px;
     border-radius: 17px;
@@ -8,17 +8,22 @@
     margin: 13% auto;
     transition: all 80ms;
 }
-.container h6{
+.container1 h6{
     text-align: center;
     margin: 10% 10%;
     
 }
-.container h4{
+.b{
+    color: black;
+    text-align: center;
+    margin: 10% 10%;
+}
+.container1 h4{
     margin-top: 30px;
     text-align: center;
     text-decoration: underline;
 }
-.container:hover{
+.container1:hover{
     transform: scale(1.5);
 
 }

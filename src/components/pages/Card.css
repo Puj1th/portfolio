@@ -1,9 +1,14 @@
 .card{
     max-width: 300px;
-    margin: 35px 40px;
+    margin: 35px 35px;
     border: 1px solid;
     border-color: #1717b03f; 
     transition: all 0.1s;  
+
+}
+.card img{
+    height: 300px;
+    width: 300px;
 }
 .card p{
     text-align: center;
@@ -12,9 +17,21 @@
 }
 .set{
     display: flex;
+    flex-wrap: wrap;
 }
 .card:hover{
     transform: scale(1.05);
     cursor: pointer;
     box-shadow: 5px 5px 10px 4px #888888;
+}
+.backbtn{
+    display: flex;
+    margin: 10px 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.backbtn img{
+    height: 30px;
+    width: 40px;
+    opacity: 0.5;
 }

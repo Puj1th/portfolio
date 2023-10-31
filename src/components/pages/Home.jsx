@@ -9,7 +9,7 @@ function Home() {
             Hey ! I am <br />
             <span className='name'>Pujith Paida</span>
           </h1>
-          <p>A 20 year old undergrad interested in completely dissimilar skills from programming to cooking.</p>
+          <p>A 20 year old undergrad interested in completely dissimilar skills right from cooking to programming .</p>
         </div>
         <div className='right'>
           <img src="https://img.freepik.com/premium-vector/serious-concentrated-developer-programming-sites_316839-2216.jpg" alt="" />

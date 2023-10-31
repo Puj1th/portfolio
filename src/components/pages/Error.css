@@ -1,0 +1,12 @@
+.boxx{
+    margin: 0 25%;
+}
+img{
+    height: 100%;
+}
+.main{
+    justify-content: center;
+}
+.right p{
+    text-align: left;
+}

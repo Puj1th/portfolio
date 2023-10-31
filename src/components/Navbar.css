@@ -3,8 +3,16 @@
     font-size: 20px;
 }
 nav{
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
     background-color: rgb(4, 4, 145);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 ul{
